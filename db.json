@@ -1,0 +1,148 @@
+{
+  "homeshopping" : [
+    {
+      "id" : "cust",
+      "cust_cnt" : 2,
+      "cust_info" : [
+        {
+          "cust_id" : "100001",
+          "cust_name" : "홍길동",
+          "order_yn" : "Y",
+          "cert_yn" : "Y",
+          "cust_grade" : "V"
+        },
+        {
+          "cust_id" : "100002",
+          "cust_name" : "이순신",
+          "order_yn" : "Y",
+          "cert_yn" : "Y",
+          "cust_grade" : "N"
+        }
+      ]  
+    },
+    {
+      "id" : "broad",
+      "current_broad_cnt" : 1,
+      "previous_broad_cnt" : 1,
+      "current_broad_info" : [
+        {
+          "product_id" : "300001",
+          "broad_name" : "2023 봄시즌 옷",
+          "broad_id" : "200001"
+        }
+      ],
+      "previous_broad_info" : [
+        {
+          "product_id" : "300002",
+          "broad_name" : "2023 자동차 보험",
+          "broad_id" : "200002"
+        }
+      ]
+    },
+    {
+      "id" : "attr_size_300001",
+      "size_cnt" : 6,
+      "size_group_name" : "사이즈",
+      "size_info" : [
+        {
+          "size_id" : "500001",
+          "size_name" : "90"
+        },
+        {
+          "size_id" : "500002",
+          "size_name" : "95"
+        },
+        {
+          "size_id" : "500003",
+          "size_name" : "100"
+        },
+        {
+          "size_id" : "500004",
+          "size_name" : "105"
+        },
+        {
+          "size_id" : "500005",
+          "size_name" : "110"
+        },
+        {
+          "size_id" : "500006",
+          "size_name" : "115"
+        }
+      ]
+    },
+    {
+      "id" : "attr_pattern_300001",
+      "pattern_cnt" : 2,
+      "pattern_group_name" : "무늬",
+      "pattern_info" : [
+        {
+          "pattern_id" : "600001",
+          "pattern_name" : "민무늬"
+        },
+        {
+          "pattern_id" : "600002",
+          "pattern_name" : "꽃무늬"
+        }
+      ]
+    },
+    {
+      "id" : "attr_form_300001",
+      "form_cnt" : 1,
+      "form_group_name" : "형태",
+      "form_info" : [
+        {
+          "form_id" : "700001",
+          "form_name" : "정사각형"
+        }
+      ]
+    },
+    {
+      "id" : "order_300001",
+      "gift_yn" : "N",
+      "order_amount" : 29900
+    },
+    {
+      "id" : "order_300002",
+      "gift_yn" : "Y",
+      "order_amount" : 0
+    },
+    {
+      "id" : "gift_300002",
+      "gift_id" : "800001",
+      "gift_name" : "휴대용 선풍기"
+    }
+  ],
+  "product" : [
+    {
+      "id" : "300001",
+      "product_name" : "옷",
+      "max_order_qty" : 5,
+      "product_type" : "1",
+      "order_no" : "20230101000001",
+      "attr_yn" : "YYYY",
+      "color_cnt" : 2,
+      "color_group_name" : "색상",
+      "color_info" : [
+        {
+          "color_id" : "400001",
+          "color_name" : "검은색"
+        },
+        {
+          "color_id" : "400002",
+          "color_name" : "흰색"
+        }
+      ]
+    },
+    {
+      "id" : "300002",
+      "product_name" : "자동차보험",
+      "max_order_qty" : 1,
+      "product_type" : "0",
+      "order_no" : "20230101000002",
+      "attr_yn" : "NNNN",
+      "color_cnt" : 0,
+      "color_group_name" : "",
+      "color_info" : []
+    }
+  ]
+}
